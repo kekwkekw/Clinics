@@ -8,6 +8,7 @@ router.get('/clinics/suburb', controller.searchClinicsBySuburb);
 router.get('/clinics/state', controller.searchClinicsByState);
 router.get('/clinics/postcode', controller.searchClinicsByPostcode);
 router.get('/clinics/name', controller.searchClinicsByName);
+router.get('/clinics/info', controller.clinicInfo);
 router.get('/city/info', controller.cityInfo);
 router.get('/suburb/info', controller.suburbInfo);
 
